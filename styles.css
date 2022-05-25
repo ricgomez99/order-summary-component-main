@@ -1,0 +1,142 @@
+body {
+  background-color: #d6e1ff;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  color: #393e46;
+}
+
+p {
+  color: #6e7c7c;
+  font-weight: 400;
+}
+
+/*Container*/
+
+/*Card*/
+
+.card {
+  border-radius: 1rem;
+  padding: 0;
+  margin: 60px auto;
+  width: 20rem;
+  box-shadow: 0 2px 30px 15px #ccd2f7;
+}
+
+/*Card Image*/
+
+.design {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+/*Crad Title*/
+
+.card-title {
+  font-size: 1.5rem;
+  padding: 15px 0;
+}
+
+/*Card Text*/
+
+.promo-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+/*Plan Section*/
+
+.plan {
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  margin: 30px auto;
+  padding: 0;
+}
+
+/*Icon*/
+
+.music-icon {
+  float: left;
+  padding: 20px 15px;
+}
+
+/*Plan text*/
+
+.plan-text {
+  padding: 25px 5px;
+  width: 70%;
+  text-align: left;
+  line-height: 1;
+  margin: auto;
+}
+
+.plan-text p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+/*Change Link*/
+
+#change-link {
+  padding: 30px 15px;
+  display: flow-root;
+  margin: -100px auto;
+  text-align: right;
+  text-decoration: none;
+  color: #92a9bd;
+}
+
+/*Buttons*/
+
+.buttons {
+  padding-top: 90px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 100%;
+}
+
+.btn {
+  margin: 8px auto;
+  width: 100%;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+.btn-primary {
+  background-color: #332fd0;
+  box-shadow: 0 10px 30px 15px #dee2e6;
+}
+
+.btn-outline-light {
+  color: #6e7c7c;
+}
+
+/*Attribution*/
+
+.attribution {
+  margin: 30px auto;
+  text-align: center;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin: 100px auto;
+  }
+  .row {
+    margin: 0 auto;
+  }
+  .attribution {
+    margin: 20px auto;
+  }
+}
